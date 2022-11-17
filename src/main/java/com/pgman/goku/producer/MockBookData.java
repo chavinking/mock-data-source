@@ -105,6 +105,7 @@ public class MockBookData {
                 i++;
             }
 
+            Thread.sleep(new Random().nextInt(sleepTime));
         }
 
         for(BookMapper entry :cache){

@@ -106,6 +106,7 @@ public class MockUserData {
                 i++;
             }
 
+            Thread.sleep(new Random().nextInt(sleepTime));
         }
 
         for(UserMapper entry :cache){

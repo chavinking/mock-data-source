@@ -139,6 +139,7 @@ public class MockBookShopData {
                 i++;
             }
 
+            Thread.sleep(new Random().nextInt(sleepTime));
         }
 
         for (BookShopMapper entry : cache) {
